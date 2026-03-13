@@ -55,10 +55,3 @@ groups:
           summary: "HP logical drive failure detected"
           description: "{{ $value }} logical drive(s) are in a failed/degraded state."
 ```
-
-## Running Tests
-
-```bash
-pip install pytest
-pytest test_ssacli.py -v
-```
